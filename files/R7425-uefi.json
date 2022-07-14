@@ -1,0 +1,56 @@
+{ "SystemConfiguration": {
+  "Comments": [
+    { "Comment": "Export type is Replace,JSON,Selective" },
+    { "Comment": "Exported configuration may contain commented attributes. Attributes may be commented due to dependency, destructive nature, preserving server identity or for security reasons." }
+  ],
+  "Components": [
+  { "FQDD": "BIOS.Setup.1-1",
+    "Attributes": [
+    { "Name": "BootMode",
+      "Value": "Uefi",
+      "Set On Import": "True",
+      "Comment": "Read and Write" },
+    { "Name": "BootSeqRetry",
+      "Value": "Enabled",
+      "Set On Import": "True",
+      "Comment": "Read and Write" },
+    { "Name": "HddFailover",
+      "Value": "Disabled",
+      "Set On Import": "False",
+      "Comment": "Read and Write" },
+    { "Name": "HddPlaceholder",
+      "Value": "Enabled",
+      "Set On Import": "True",
+      "Comment": "Read and Write" },
+    { "Name": "SetBootOrderEn",
+      "Value": "NIC.PxeDevice.1-1,RAID.Slot.3-1",
+      "Set On Import": "True",
+      "Comment": "Read and Write" },
+    { "Name": "SetBootOrderDis",
+      "Value": "",
+      "Set On Import": "True",
+      "Comment": "Read and Write" },
+    { "Name": "SetBootOrderFqdd1",
+      "Value": "",
+      "Set On Import": "True",
+      "Comment": "Read and Write" },
+    { "Name": "PxeDev1EnDis",
+      "Value": "Enabled",
+      "Set On Import": "True",
+      "Comment": "Read and Write" },
+    { "Name": "PxeDev1Interface",
+      "Value": "NIC.Integrated.1-3-1",
+      "Set On Import": "True",
+      "Comment": "Read and Write" },
+    { "Name": "AcPwrRcvry",
+      "Value": "Last",
+      "Set On Import": "True",
+      "Comment": "Read and Write" },
+    { "Name": "UefiBootSeq",
+      "Value": "NIC.PxeDevice.1-1,RAID.Slot.3-1",
+      "Set On Import": "True",
+      "Comment": "Read and Write" } 
+    ]}
+  ]}
+}
+

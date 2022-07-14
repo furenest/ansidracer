@@ -1,0 +1,4 @@
+/venv
+collections/*
+!collections/requirements.yml
+inventory
